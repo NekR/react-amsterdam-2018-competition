@@ -1,0 +1,7 @@
+/node_modules/*
+/assets/*
+/docs/*
+/public/*
+/static/*
+/plugins/**
+!plugins/**/src/*
