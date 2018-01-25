@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "node browser-sync",
+    "deploy": "gh-pages -d public -m Updates [ci skip]",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "eslint ./src & stylelint \"./src/{components,css}/*.css\"",
     "precommit": "lint-staged"
