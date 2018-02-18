@@ -1,0 +1,5 @@
+.Footer-footer {
+  display: flex;
+  justify-content: center;
+  padding: 0 32px 32px;
+}
